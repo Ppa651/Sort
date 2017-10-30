@@ -1,0 +1,928 @@
+digraph G
+{
+rankdir=BT;
+node[color=black,fontsize=12];
+"FIA_ATD.1"
+"FIA_UAU.6"
+"FIA_UAU.5"
+"FIA_UAU.4"
+"FIA_UAU.3"
+"FIA_UAU.2"
+"FIA_SOS.2"
+"FMT_SAE.1"
+"FIA_SOS"
+"FIA_USB"
+"FIA_ATD"
+"FIA_UAU.1"
+"FIA_UAU"
+"FIA_AFL.1"
+"FIA_AFL"
+"FDP_UIT.3"
+"FIA_SOS.1"
+"FMT_SMF.1"
+"FPT_ITC.1"
+"FMT_REV.1"
+"FMT_REV"
+"FMT_MTD.3"
+"FMT_MTD.2"
+"FMT_MSA.4"
+"FIA_UAU.7"
+"FMT_MSA.1"
+"FIA_UID.2"
+"FMT_SMF"
+"FMT_SMR.1"
+"FMT_SMR"
+"FMT_MOF.1"
+"FMT_MOF"
+"FIA_USB.1"
+"FDP_UCT"
+"FMT_MSA.2"
+"FDP_IFF.1"
+"FDP_UIT.2"
+"FTP_ITC.1"
+"FTP_ITC"
+"FTP"
+"FDP_IFF.6"
+"FDP_IFF.5"
+"FTP_TRP.1"
+"FDP_IFF.2"
+"FPT_TDC"
+"FDP_IFC.2"
+"FDP_IFC.1"
+"FDP_IFC"
+"FDP_ETC.2"
+"FDP_ETC.1"
+"FDP_ETC"
+"FDP_DAU.2"
+"FDP_IFF.3"
+"FDP_RIP.1"
+"FMT_SMR.2"
+"FDP_SDI.2"
+"FDP_SDI.1"
+"FDP_SDI"
+"FDP_ROL.2"
+"FDP_ROL.1"
+"FTP_TRP"
+"FDP_RIP.2"
+"FDP_UCT.1"
+"FDP_RIP"
+"FDP_ITT.1"
+"FDP_ITT.4"
+"FDP_ITT.3"
+"FDP_ITT.2"
+"FDP_ITT"
+"FPT_TDC.1"
+"FDP_ROL"
+"FAU_STG.2_a"
+"FCO_NRO.2_a"
+"FCO_NRO.1_depends"
+"FCO_NRO.1_a"
+"FAU_STG.4_depends"
+"FAU_STG.4_a"
+"FAU_STG.3_depends"
+"FMT_SAE"
+"FAU_STG.2_depends"
+"FCO_NRR.1_depends"
+"FAU_STG.1_depends"
+"FAU_STG.1_a"
+"FAU_GEN.1(FMT_MTD.1->FAU_GEN.1)"
+"FMT_MTD.1(FMT_MTD.1->FAU_GEN.1)"
+"(FMT_MTD.1->FAU_GEN.1)"
+"FMT_MTD.1(FAU_GEN.1->FMT_MTD.1)"
+"FAU_STG.3_a"
+"[FCS_CKM.2 OR FCS_COP.1]([FCS_CKM.2 OR FCS_COP.1]->FCS_CKM.4)"
+"([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"
+"FCS_CKM.2_depends"
+"FCS_CKM.2_a"
+"[FCS_CKM.2 OR FCS_COP.1](FCS_CKM.4->[FCS_CKM.2 OR FCS_COP.1])"
+"FCS_CKM.4(FCS_CKM.4->[FCS_CKM.2 OR FCS_COP.1])"
+"FCO_NRO.2_depends"
+"FCS_CKM.4([FCS_CKM.2 OR FCS_COP.1]->FCS_CKM.4)"
+"FCO_NRR.1_a"
+"([FCS_CKM.2 OR FCS_COP.1]->FCS_CKM.4)"
+"[FCS_CKM.2 OR FCS_COP.1]"
+"FCS_CKM.1_depends"
+"FCS_CKM.1_a"
+"FCO_NRR.2_depends"
+"FCO_NRR.2_a"
+"FAU_SEL.1_depends"
+"(FCS_CKM.4->[FCS_CKM.2 OR FCS_COP.1])"
+"FPR_PSE.2"
+"FAU_GEN.1(FAU_GEN.1->FMT_MTD.1)"
+"FPR_UNO.3"
+"FPR_UNO.2"
+"FPR_UNO.1"
+"FPR_UNO"
+"FPR_UNL.1"
+"FPT_FLS"
+"FPR_PSE.3"
+"FPT_FLS.1"
+"FPR_PSE.1"
+"FPR_PSE"
+"FPR_ANO.2"
+"FPR_ANO.1"
+"FPR_ANO"
+"FPR"
+"FMT_SMR.3"
+"FPR_UNL"
+"FAU_SAA.2_depends"
+"FMT_MSA.3"
+"FAU_SEL.1_a"
+"FAU_SAR.3_depends"
+"FAU_SAR.3_a"
+"FAU_SAR.2_depends"
+"FAU_SAR.2_a"
+"FPR_UNO.4"
+"FAU_SAR.1_a"
+"(FAU_GEN.1->FMT_MTD.1)"
+"FAU_SAA.2_a"
+"FAU_SAA.1_depends"
+"FAU_SAA.1_a"
+"FAU_GEN.1(FIA_UID.1->FAU_GEN.1)"
+"FPT_ITC"
+"FPT_ITA.1"
+"FPT_ITA"
+"FAU_SAR.1_depends"
+"FTA_LSA"
+"FTA_SSL.3"
+"FTA_SSL.2"
+"FTA_SSL.1"
+"FTA_SSL"
+"FTA_MCS.2"
+"FTA_MCS.1"
+"FDP_DAU.1"
+"FTA_LSA.1"
+"FTA_TAB.1"
+"FTA"
+"FRU_RSA.2"
+"FRU_RSA.1"
+"FRU_RSA"
+"FRU_PRS.2"
+"FRU_PRS.1"
+"FTA_MCS"
+"FTR_ITC.1"
+"FAU_ARP.1_a"
+"FPT_TRP.1"
+"FPT_TRP"
+"FTP_TPR.1"
+"FTP_TPR"
+"ADV_SPM.1"
+"FTA_SSL.4"
+"ADV"
+"FTA_TAB"
+"FTR_ITC"
+"FTR"
+"FTA_TSE.1"
+"FTA_TSE"
+"FTA_TAH.1"
+"FTA_TAH"
+"FRU_FLT.1"
+"ADV_SPM"
+"FPT_PHP"
+"FRU_PRS"
+"FPT_RCV.3"
+"FPT_RCV.2"
+"FPT_RCV.1"
+"FPT_RCV"
+"FPT_PHP.3"
+"A"
+"FPT_PHP.1"
+"AGD"
+"FPT_ITT.3"
+"FPT_ITT.2"
+"FPT_ITT.1"
+"FPT_ITT"
+"FPT_ITI.2"
+"FPT_ITI.1"
+"FPT_ITI"
+"FPT_PHP.2"
+"FPT_TEE"
+"FAU_GEN.1_depends"
+"FRU_FLT"
+"FRU"
+"FPT_TST.1"
+"FPT_TST"
+"FPT_TRC.1"
+"FPT_RCV.4"
+"FPT_TEE.1"
+"FRU_FLT.2"
+"FPT_SSP.2"
+"FPT_SSP.1"
+"FPT_SSP"
+"FPT_RPL.1"
+"FPT_RPL"
+"AGD_OPE.1"
+"AGD_OPE"
+"FPT_TRC"
+"FAU_STG.3"
+"FAU_SEL"
+"FCO_NRR.1"
+"FCO_NRR"
+"FCO_NRO.2"
+"FCO_NRO.1"
+"FCO_NRO"
+"FCS"
+"FAU_STG.4"
+"FCS_CKM"
+"FAU_STG.2"
+"FAU_STG.1"
+"FAU_STG"
+"FMT_MTD.1"
+"FMT_MTD"
+"FMT"
+"FAU_ARP.1_depends"
+"FCO"
+"FDP_ITC.1"
+"(FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"
+"FMT_MSA"
+"FDP_ACF.1"
+"FDP_ACF"
+"FDP_ACC.2"
+"FDP_ACC.1"
+"FCO_NRR.2"
+"FDP_ITC.2"
+"FAU_SAR.3"
+"FDP_ITC"
+"FCS_COP.1"
+"FCS_COP"
+"FCS_CKM.4"
+"FCS_CKM.3"
+"FCS_CKM.2"
+"FCS_CKM.1"
+"FDP_ACC"
+"FIA_UID.1(FIA_UID.1->FAU_GEN.1)"
+"FAU_SEL.1"
+"FAU"
+"FDP_UIT.1"
+"FDP_UIT"
+"FDP_IFF.4"
+"FDP_IFF"
+"FPT_ITT"->"FPT"[color=blue,label="approx"];
+"FPT_ITI"->"FPT"[color=blue,label="approx"];
+"FPT_ITC"->"FPT"[color=blue,label="approx"];
+"FPT_ITA"->"FPT"[color=blue,label="approx"];
+"FPR_UNL"->"FPR"[color=blue,label="approx"];
+"FDP_IFF.2"->"FDP_IFF.1"[color=blue,label="approx"];
+"FPT_FLS"->"FPT"[color=blue,label="approx"];
+"FPR_UNO"->"FPR"[color=blue,label="approx"];
+"FDP_IFC.1"->"FDP_IFC"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_ETC.1_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"FDP_ETC.2"->"FDP_ETC"[color=blue,label="approx"];
+"FPT_TST"->"FPT"[color=blue,label="approx"];
+"FPT_TRC"->"FPT"[color=blue,label="approx"];
+"FPT_TEE"->"FPT"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FDP_IFC.1_depends"->"FDP_IFF.1"[color=blue,label="approx"];
+"FDP_ETC.2_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"FDP_IFF.1"->"FDP_IFF"[color=blue,label="approx"];
+"FPT_SSP"->"FPT"[color=blue,label="approx"];
+"FPT_RPL"->"FPT"[color=blue,label="approx"];
+"AGD_OPE"->"AGD"[color=blue,label="approx"];
+"FPR_PSE"->"FPR"[color=blue,label="approx"];
+"FDP_IFC.2"->"FDP_IFC.1"[color=blue,label="approx"];
+"AGD"->"A"[color=blue,label="approx"];
+"FPT_RCV"->"FPT"[color=blue,label="approx"];
+"FPT_PHP"->"FPT"[color=blue,label="approx"];
+"FDP_IFC.2_depends"->"FDP_IFF.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FMT_MOF"->"FMT"[color=blue,label="approx"];
+"FDP_ITT"->"FDP"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FPT_TDC"->"FPT"[color=blue,label="approx"];
+"FTP_TRP"->"FTP"[color=blue,label="approx"];
+"FDP_ITC.2"->"FDP_ITC"[color=blue,label="approx"];
+"FTP_ITC"->"FTP"[color=blue,label="approx"];
+"FDP_ROL"->"FDP"[color=blue,label="approx"];
+"FDP_IFC"->"FDP"[color=blue,label="approx"];
+"FDP_ITC.1"->"FDP_ITC"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_ITC.1"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_TRP.1"[color=blue,label="approx"];
+"FDP_ETC"->"FDP"[color=blue,label="approx"];
+"FDP_DAU"->"FDP"[color=blue,label="approx"];
+"FMT_MSA"->"FMT"[color=blue,label="approx"];
+"FDP_ACF"->"FDP"[color=blue,label="approx"];
+"FDP_ACC"->"FDP"[color=blue,label="approx"];
+"FDP_ITC"->"FDP"[color=blue,label="approx"];
+"FTP"->"F"[color=blue,label="approx"];
+"FDP_IFF.5"->"FDP_IFF.4"[color=blue,label="approx"];
+"FPR"->"F"[color=blue,label="approx"];
+"FDP_IFF.3"->"FDP_IFF"[color=blue,label="approx"];
+"FMT_SAE"->"FMT"[color=blue,label="approx"];
+"FMT_REV"->"FMT"[color=blue,label="approx"];
+"FMT_SMF"->"FMT"[color=blue,label="approx"];
+"FDP_IFF.3_depends"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_IFF.4"->"FDP_IFF.3"[color=blue,label="approx"];
+"FMT_SMR"->"FMT"[color=blue,label="approx"];
+"FDP_RIP"->"FDP"[color=blue,label="approx"];
+"FDP_IFF.4_depends"->"FDP_IFC.1"[color=blue,label="approx"];
+"FPR_ANO"->"FPR"[color=blue,label="approx"];
+"FIA_SOS"->"FIA"[color=blue,label="approx"];
+"FIA_ATD"->"FIA"[color=blue,label="approx"];
+"FIA_UAU"->"FIA"[color=blue,label="approx"];
+"FDP_IFF.5_depends"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_IFF.6"->"FDP_IFF"[color=blue,label="approx"];
+"FIA_AFL"->"FIA"[color=blue,label="approx"];
+"FDP_UCT"->"FDP"[color=blue,label="approx"];
+"FDP_SDI"->"FDP"[color=blue,label="approx"];
+"FDP_IFF.6_depends"->"FDP_IFC.1"[color=blue,label="approx"];
+"FIA_USB"->"FIA"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.1"[color=blue,label="approx"];
+"FTA_TAH"->"FTA"[color=blue,label="approx"];
+"FAU_SAR.1_depends"->"FAU_GEN.1"[color=blue,label="approx"];
+"[FCS_CKM.2 OR FCS_COP.1]"->"FCS_CKM.2"[color=blue,label="approx"];
+"[FCS_CKM.2 OR FCS_COP.1]"->"FCS_COP.1"[color=blue,label="approx"];
+"FAU_SAR.1"->"FAU_SAR"[color=blue,label="approx"];
+"FCS_CKM.2"->"FCS_CKM"[color=blue,label="approx"];
+"FAU_SAA.4"->"FAU_SAA.3"[color=blue,label="approx"];
+"FCS_CKM.1"->"FCS_CKM"[color=blue,label="approx"];
+"FAU_SAA.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FCO_NRR.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.2"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FCS_CKM.1"[color=blue,label="approx"];
+"FAU_SAA.2"->"FAU_SAA"[color=blue,label="approx"];
+"FCS_CKM.3"->"FCS_CKM"[color=blue,label="approx"];
+"FAU_SAA.1_depends"->"FAU_GEN.1"[color=blue,label="approx"];
+"FAU_SAA.1"->"FAU_SAA"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.1"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.2"[color=blue,label="approx"];
+"FAU_SAA.3"->"FAU_SAA"[color=blue,label="approx"];
+"FAU_STG.1"->"FAU_STG"[color=blue,label="approx"];
+"FAU_STG.4"->"FAU_STG.3"[color=blue,label="approx"];
+"FAU_STG.3"->"FAU_STG"[color=blue,label="approx"];
+"FAU_STG.2_depends"->"FAU_GEN.1"[color=blue,label="approx"];
+"FAU_STG.4_depends"->"FAU_STG.1"[color=blue,label="approx"];
+"FCO_NRO.1"->"FCO_NRO"[color=blue,label="approx"];
+"FAU_STG.2"->"FAU_STG.1"[color=blue,label="approx"];
+"FAU_STG.1_depends"->"FAU_GEN.1"[color=blue,label="approx"];
+"FAU_SAR.2"->"FAU_SAR"[color=blue,label="approx"];
+"FCO_NRO.2"->"FCO_NRO.1"[color=blue,label="approx"];
+"FAU_GEN.2"->"FAU_GEN"[color=blue,label="approx"];
+"FCO_NRO.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FCO_NRR.1"->"FCO_NRR"[color=blue,label="approx"];
+"FAU_SEL.1"->"FAU_SEL"[color=blue,label="approx"];
+"FAU_SAR.3_depends"->"FAU_SAR.1"[color=blue,label="approx"];
+"FCO_NRR.1_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FCO_NRR.2"->"FCO_NRR.1"[color=blue,label="approx"];
+"FAU_SAR.3"->"FAU_SAR"[color=blue,label="approx"];
+"FAU_SAR.2_depends"->"FAU_SAR.1"[color=blue,label="approx"];
+"FCO_NRO.1_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FDP_DAU.1"->"FDP_DAU"[color=blue,label="approx"];
+"FTR"->"F"[color=blue,label="approx"];
+"FDP_ACC.2_depends"->"FDP_ACF.1"[color=blue,label="approx"];
+"FDP_ACF.1"->"FDP_ACF"[color=blue,label="approx"];
+"FIA_UID"->"FIA"[color=blue,label="approx"];
+"FTA_TSE"->"FTA"[color=blue,label="approx"];
+"FCS_COP"->"FCS"[color=blue,label="approx"];
+"FTA_TAB"->"FTA"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FCS_CKM.1"[color=blue,label="approx"];
+"FTA_MCS"->"FTA"[color=blue,label="approx"];
+"FDP_ACC.2"->"FDP_ACC.1"[color=blue,label="approx"];
+"FDP_DAU.2"->"FDP_DAU.1"[color=blue,label="approx"];
+"FTA_LSA"->"FTA"[color=blue,label="approx"];
+"FTA"->"F"[color=blue,label="approx"];
+"FRU_RSA"->"FRU"[color=blue,label="approx"];
+"FDP_DAU.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FDP_ETC.1"->"FDP_ETC"[color=blue,label="approx"];
+"FRU_PRS"->"FRU"[color=blue,label="approx"];
+"FRU_FLT"->"FRU"[color=blue,label="approx"];
+"FTA_SSL"->"FTA"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.2"[color=blue,label="approx"];
+"FRU"->"F"[color=blue,label="approx"];
+"FAU_GEN.1_depends"->"FPT_STM.1"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.1"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.2"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FCS_CKM.1"[color=blue,label="approx"];
+"FCS_CKM.4_depends"->"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"[color=blue,label="approx"];
+"FCS_COP.1"->"FCS_COP"[color=blue,label="approx"];
+"FAU_GEN.1"->"FAU_GEN"[color=blue,label="approx"];
+"FTR_ITC"->"FTR"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FDP_ITC.1"[color=blue,label="approx"];
+"ADV"->"A"[color=blue,label="approx"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]"->"FCS_CKM.1"[color=blue,label="approx"];
+"FAU_ARP.1"->"FAU_ARP"[color=blue,label="approx"];
+"FDP_ACC.1"->"FDP_ACC"[color=blue,label="approx"];
+"FPT_TRP"->"FPT"[color=blue,label="approx"];
+"FTP_TPR"->"FTP"[color=blue,label="approx"];
+"ADV_SPM"->"ADV"[color=blue,label="approx"];
+"FDP_ACC.1_depends"->"FDP_ACF.1"[color=blue,label="approx"];
+"FCS_CKM.4"->"FCS_CKM"[color=blue,label="approx"];
+"FAU_ARP.1_depends"->"FAU_SAA.1"[color=blue,label="approx"];
+"FPT_ITT.3_depends"->"FPT_ITT.1"[color=blue,label="approx"];
+"FAU_SEL"->"FAU"[color=blue,label="approx"];
+"FPT_PHP.2_depends"->"FMT_MOF.1"[color=blue,label="approx"];
+"FIA_UAU.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FIA_UAU.3"->"FIA_UAU"[color=blue,label="approx"];
+"FIA_UAU.4"->"FIA_UAU"[color=blue,label="approx"];
+"FIA_UAU.5"->"FIA_UAU"[color=blue,label="approx"];
+"FIA_UAU.6"->"FIA_UAU"[color=blue,label="approx"];
+"FIA_UAU.7"->"FIA_UAU"[color=blue,label="approx"];
+"FIA_UAU.2"->"FIA_UAU.1"[color=blue,label="approx"];
+"FPT_PHP.1"->"FPT_PHP"[color=blue,label="approx"];
+"FIA_UAU.1_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FIA_UAU.7_depends"->"FIA_UAU.1"[color=blue,label="approx"];
+"FIA_UID.1"->"FIA_UID"[color=blue,label="approx"];
+"FIA_UID.2"->"FIA_UID.1"[color=blue,label="approx"];
+"FIA_USB.1"->"FIA_USB"[color=blue,label="approx"];
+"FPT_ITT.3"->"FPT_ITT"[color=blue,label="approx"];
+"FPT_ITT.2"->"FPT_ITT.1"[color=blue,label="approx"];
+"FIA_USB.1_depends"->"FIA_ATD.1"[color=blue,label="approx"];
+"FMT_MOF.1"->"FMT_MOF"[color=blue,label="approx"];
+"FPT_PHP.2"->"FPT_PHP.1"[color=blue,label="approx"];
+"FPT_RCV.2_depends"->"AGD_OPE.1"[color=blue,label="approx"];
+"FPT_STM.1"->"FPT_STM"[color=blue,label="approx"];
+"FPT_SSP.2_depends"->"FPT_ITT.1"[color=blue,label="approx"];
+"FPT_SSP.2"->"FPT_SSP.1"[color=blue,label="approx"];
+"FPT_SSP.1_depends"->"FPT_ITT.1"[color=blue,label="approx"];
+"FPT_SSP.1"->"FPT_SSP"[color=blue,label="approx"];
+"FPT_RPL.1"->"FPT_RPL"[color=blue,label="approx"];
+"FPT_RCV.4"->"FPT_RCV"[color=blue,label="approx"];
+"FPT_RCV.3_depends"->"AGD_OPE.1"[color=blue,label="approx"];
+"FPT_PHP.3"->"FPT_PHP"[color=blue,label="approx"];
+"FIA_AFL.1"->"FIA_AFL"[color=blue,label="approx"];
+"FPT_ITI.1"->"FPT_ITI"[color=blue,label="approx"];
+"FPT_RCV.2"->"FPT_RCV.1"[color=blue,label="approx"];
+"FIA_AFL.1_depends"->"FIA_UAU.1"[color=blue,label="approx"];
+"FIA_ATD.1"->"FIA_ATD"[color=blue,label="approx"];
+"FIA_SOS.1"->"FIA_SOS"[color=blue,label="approx"];
+"FIA_SOS.2"->"FIA_SOS"[color=blue,label="approx"];
+"FIA_UAU.1"->"FIA_UAU"[color=blue,label="approx"];
+"FPT_RCV.1_depends"->"AGD_OPE.1"[color=blue,label="approx"];
+"FPT_RCV.1"->"FPT_RCV"[color=blue,label="approx"];
+"FPT_RCV.3"->"FPT_RCV.2"[color=blue,label="approx"];
+"FMT_REV.1_depends"->"FMT_SMR.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FMT_SMR.3"->"FMT_SMR"[color=blue,label="approx"];
+"FMT_SMR.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FMT_SMR.2"->"FMT_SMR.1"[color=blue,label="approx"];
+"FMT_SMR.1_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FMT_SMR.1"->"FMT_SMR"[color=blue,label="approx"];
+"FMT_SMF.1"->"FMT_SMF"[color=blue,label="approx"];
+"FPT_ITT.1"->"FPT_ITT"[color=blue,label="approx"];
+"FMT_MSA.3"->"FMT_MSA"[color=blue,label="approx"];
+"FMT_MSA.2"->"FMT_MSA"[color=blue,label="approx"];
+"FMT_REV.1"->"FMT_REV"[color=blue,label="approx"];
+"FMT_MTD.3_depends"->"FMT_MTD.1"[color=blue,label="approx"];
+"FMT_MSA.4"->"FMT_MSA"[color=blue,label="approx"];
+"FMT_MTD.3"->"FMT_MTD"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FMT_MSA.4_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"FMT_MTD.1"->"FMT_MTD"[color=blue,label="approx"];
+"FMT_SAE.1"->"FMT_SAE"[color=blue,label="approx"];
+"FPR_UNO.2"->"FPR_UNO.1"[color=blue,label="approx"];
+"FPT_TDC.1"->"FPT_TDC"[color=blue,label="approx"];
+"FPT_ITC.1"->"FPT_ITC"[color=blue,label="approx"];
+"FPT_ITA.1"->"FPT_ITA"[color=blue,label="approx"];
+"FMT_MSA.1"->"FMT_MSA"[color=blue,label="approx"];
+"FPT_FLS.1"->"FPT_FLS"[color=blue,label="approx"];
+"FPR_UNO.4"->"FPR_UNO"[color=blue,label="approx"];
+"FPR_UNO.3_depends"->"FPR_UNO.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FMT_SMR.3_depends"->"FMT_SMR.1"[color=blue,label="approx"];
+"FPR_UNO.3"->"FPR_UNO"[color=blue,label="approx"];
+"FPR_ANO.1"->"FPR_ANO"[color=blue,label="approx"];
+"FPR_UNO.1"->"FPR_UNO"[color=blue,label="approx"];
+"FPR_UNL.1"->"FPR_UNL"[color=blue,label="approx"];
+"FPR_PSE.3"->"FPR_PSE.1"[color=blue,label="approx"];
+"FPR_PSE.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FAU_STG.3_depends"->"FAU_STG.1"[color=blue,label="approx"];
+"FPR_PSE.2"->"FPR_PSE.1"[color=blue,label="approx"];
+"FPR_PSE.1"->"FPR_PSE"[color=blue,label="approx"];
+"FPR_ANO.2"->"FPR_ANO.1"[color=blue,label="approx"];
+"FPT_ITI.2"->"FPT_ITI.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_RIP.2"->"FDP_RIP.1"[color=blue,label="approx"];
+"FAU"->"F"[color=blue,label="approx"];
+"FDP_ITT.4"->"FDP_ITT.3"[color=blue,label="approx"];
+"FDP_UIT"->"FDP"[color=blue,label="approx"];
+"FDP_IFF"->"FDP"[color=blue,label="approx"];
+"FDP"->"F"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FTP_TRP.1"->"FTP_TRP"[color=blue,label="approx"];
+"FTA_SSL.4"->"FTA_SSL"[color=blue,label="approx"];
+"FDP_RIP.1"->"FDP_RIP"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FDP_ROL.1"->"FDP_ROL"[color=blue,label="approx"];
+"FTA_TSE.1"->"FTA_TSE"[color=blue,label="approx"];
+"FTA_TAH.1"->"FTA_TAH"[color=blue,label="approx"];
+"FTA_TAB.1"->"FTA_TAB"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_ROL.1_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FTP_ITC.1"->"FTP_ITC"[color=blue,label="approx"];
+"FDP_ITT.1_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"FCS"->"F"[color=blue,label="approx"];
+"FCO_NRR"->"FCO"[color=blue,label="approx"];
+"FCO_NRO"->"FCO"[color=blue,label="approx"];
+"FCO"->"F"[color=blue,label="approx"];
+"FDP_ITT.1"->"FDP_ITT"[color=blue,label="approx"];
+"FAU_STG"->"FAU"[color=blue,label="approx"];
+"FMT_MTD"->"FMT"[color=blue,label="approx"];
+"FMT"->"F"[color=blue,label="approx"];
+"FAU_ARP"->"FAU"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_ITT.2"->"FDP_ITT.1"[color=blue,label="approx"];
+"FAU_SAR"->"FAU"[color=blue,label="approx"];
+"FIA"->"F"[color=blue,label="approx"];
+"FPT_STM"->"FPT"[color=blue,label="approx"];
+"FDP_ITT.3"->"FDP_ITT"[color=blue,label="approx"];
+"FPT"->"F"[color=blue,label="approx"];
+"FAU_GEN"->"FAU"[color=blue,label="approx"];
+"FAU_SAA"->"FAU"[color=blue,label="approx"];
+"FTA_SSL.3"->"FTA_SSL"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FRU_FLT.2"->"FRU_FLT.1"[color=blue,label="approx"];
+"FDP_UIT.2"->"FDP_UIT"[color=blue,label="approx"];
+"FTA_MCS.1"->"FTA_MCS"[color=blue,label="approx"];
+"FTA_LSA.1"->"FTA_LSA"[color=blue,label="approx"];
+"FRU_RSA.2"->"FRU_RSA.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FRU_RSA.1"->"FRU_RSA"[color=blue,label="approx"];
+"FRU_PRS.2"->"FRU_PRS.1"[color=blue,label="approx"];
+"FDP_ROL.2"->"FDP_ROL.1"[color=blue,label="approx"];
+"FRU_FLT.2_depends"->"FPT_FLS.1"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_ITC.1"[color=blue,label="approx"];
+"FRU_FLT.1_depends"->"FPT_FLS.1"[color=blue,label="approx"];
+"FRU_FLT.1"->"FRU_FLT"[color=blue,label="approx"];
+"FPT_TST.1"->"FPT_TST"[color=blue,label="approx"];
+"FPT_TRC.1_depends"->"FPT_ITT.1"[color=blue,label="approx"];
+"FDP_UIT.3"->"FDP_UIT.2"[color=blue,label="approx"];
+"FPT_TRC.1"->"FPT_TRC"[color=blue,label="approx"];
+"FPT_TEE.1"->"FPT_TEE"[color=blue,label="approx"];
+"FCS_CKM"->"FCS"[color=blue,label="approx"];
+"FRU_PRS.1"->"FRU_PRS"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_TRP.1"[color=blue,label="approx"];
+"FTA_SSL.2_depends"->"FIA_UAU.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FDP_ROL.2_depends"->"[FDP_ACC.1 OR FDP_IFC.1]"[color=blue,label="approx"];
+"FDP_SDI.1"->"FDP_SDI"[color=blue,label="approx"];
+"FDP_SDI.2"->"FDP_SDI.1"[color=blue,label="approx"];
+"FDP_UCT.1"->"FDP_UCT"[color=blue,label="approx"];
+"FTA_SSL.2"->"FTA_SSL"[color=blue,label="approx"];
+"FTA_MCS.1_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_ITC.1"[color=blue,label="approx"];
+"[FTP_ITC.1 OR FTP_TRP.1]"->"FTP_TRP.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"FTA_SSL.1"->"FTA_SSL"[color=blue,label="approx"];
+"FDP_UIT.1"->"FDP_UIT"[color=blue,label="approx"];
+"FTA_MCS.2_depends"->"FIA_UID.1"[color=blue,label="approx"];
+"FTA_MCS.2"->"FTA_MCS.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_IFC.1"[color=blue,label="approx"];
+"[FDP_ACC.1 OR FDP_IFC.1]"->"FDP_ACC.1"[color=blue,label="approx"];
+"FTA_SSL.1_depends"->"FIA_UAU.1"[color=blue,label="approx"];
+"FDP_UIT.2"->"FDP_UIT.2_depends"[color=red,label="consist of"];
+"FTA_SSL.2"->"FTA_SSL.2_a"[color=red,label="consist of"];
+"FDP_UCT.1"->"FDP_UCT.1_depends"[color=red,label="consist of"];
+"FTA_SSL.1"->"FTA_SSL.1_depends"[color=red,label="consist of"];
+"FTA_SSL.1"->"FTA_SSL.1_a"[color=red,label="consist of"];
+"FDP_UIT.1"->"FDP_UIT.1_a"[color=red,label="consist of"];
+"FDP_UIT.1"->"FDP_UIT.1_depends"[color=red,label="consist of"];
+"FTA_MCS.2"->"FTA_MCS.2_depends"[color=red,label="consist of"];
+"FTA_MCS.2"->"FTA_MCS.2_a"[color=red,label="consist of"];
+"FTA_MCS.1"->"FTA_MCS.1_depends"[color=red,label="consist of"];
+"FPT_SSP.1"->"FPT_SSP.1_depends"[color=red,label="consist of"];
+"FDP_UIT.2"->"FDP_UIT.2_a"[color=red,label="consist of"];
+"FDP_ROL.2"->"FDP_ROL.2_depends"[color=red,label="consist of"];
+"FRU_FLT.2"->"FRU_FLT.2_depends"[color=red,label="consist of"];
+"FRU_FLT.2"->"FRU_FLT.2_a"[color=red,label="consist of"];
+"FRU_FLT.1"->"FRU_FLT.1_depends"[color=red,label="consist of"];
+"FRU_FLT.1"->"FRU_FLT.1_a"[color=red,label="consist of"];
+"FPT_TRC.1"->"FPT_TRC.1_depends"[color=red,label="consist of"];
+"FPT_TRC.1"->"FPT_TRC.1_a"[color=red,label="consist of"];
+"FDP_UIT.3"->"FDP_UIT.3_a"[color=red,label="consist of"];
+"FDP_UIT.3"->"FDP_UIT.3_depends"[color=red,label="consist of"];
+"FPT_SSP.2"->"FPT_SSP.2_depends"[color=red,label="consist of"];
+"FDP_IFF.3"->"FDP_IFF.3_a"[color=red,label="consist of"];
+"FTA_MCS.1"->"FTA_MCS.1_a"[color=red,label="consist of"];
+"FDP_ITT.1"->"FDP_ITT.1_depends"[color=red,label="consist of"];
+"FDP_IFF.3"->"FDP_IFF.3_depends"[color=red,label="consist of"];
+"FDP_IFF.4"->"FDP_IFF.4_a"[color=red,label="consist of"];
+"FDP_IFF.4"->"FDP_IFF.4_depends"[color=red,label="consist of"];
+"FDP_IFF.5"->"FDP_IFF.5_a"[color=red,label="consist of"];
+"FDP_IFF.5"->"FDP_IFF.5_depends"[color=red,label="consist of"];
+"FDP_IFF.6"->"FDP_IFF.6_a"[color=red,label="consist of"];
+"FDP_IFF.6"->"FDP_IFF.6_depends"[color=red,label="consist of"];
+"FDP_ITC.1"->"FDP_ITC.1_a"[color=red,label="consist of"];
+"FDP_ITC.1"->"FDP_ITC.1_depends"[color=red,label="consist of"];
+"FDP_ITC.2"->"FDP_ITC.2_a"[color=red,label="consist of"];
+"FTA_SSL.2"->"FTA_SSL.2_depends"[color=red,label="consist of"];
+"FDP_ITT.1"->"FDP_ITT.1_a"[color=red,label="consist of"];
+"FDP_UCT.1"->"FDP_UCT.1_a"[color=red,label="consist of"];
+"FDP_ITT.2"->"FDP_ITT.2_a"[color=red,label="consist of"];
+"FDP_ITT.2"->"FDP_ITT.2_depends"[color=red,label="consist of"];
+"FDP_ITT.3"->"FDP_ITT.3_a"[color=red,label="consist of"];
+"FDP_ITT.3"->"FDP_ITT.3_depends"[color=red,label="consist of"];
+"FDP_ITT.4"->"FDP_ITT.4_a"[color=red,label="consist of"];
+"FDP_ITT.4"->"FDP_ITT.4_depends"[color=red,label="consist of"];
+"FDP_ROL.1"->"FDP_ROL.1_depends"[color=red,label="consist of"];
+"FMT_MTD.1"->"FMT_MTD.1_depends"[color=red,label="consist of"];
+"FDP_ROL.2"->"FDP_ROL.2_a"[color=red,label="consist of"];
+"FPT_SSP.1"->"FPT_SSP.1_a"[color=red,label="consist of"];
+"FDP_ITC.2"->"FDP_ITC.2_depends"[color=red,label="consist of"];
+"FMT_SAE.1"->"FMT_SAE.1_depends"[color=red,label="consist of"];
+"FPR_UNO.3"->"FPR_UNO.3_a"[color=red,label="consist of"];
+"FPR_PSE.2"->"FPR_PSE.2_depends"[color=red,label="consist of"];
+"FPR_PSE.2"->"FPR_PSE.2_a"[color=red,label="consist of"];
+"FMT_MSA.2"->"FMT_MSA.2_a"[color=red,label="consist of"];
+"FMT_MSA.2"->"FMT_MSA.2_depends"[color=red,label="consist of"];
+"FMT_SMR.3"->"FMT_SMR.3_depends"[color=red,label="consist of"];
+"FMT_SMR.3"->"FMT_SMR.3_a"[color=red,label="consist of"];
+"FMT_SMR.2"->"FMT_SMR.2_depends"[color=red,label="consist of"];
+"FMT_SMR.2"->"FMT_SMR.2_a"[color=red,label="consist of"];
+"FPT_SSP.2"->"FPT_SSP.2_a"[color=red,label="consist of"];
+"FMT_SMR.1"->"FMT_SMR.1_a"[color=red,label="consist of"];
+"FMT_MSA.1"->"FMT_MSA.1_a"[color=red,label="consist of"];
+"FMT_SAE.1"->"FMT_SAE.1_a"[color=red,label="consist of"];
+"FMT_MSA.3"->"FMT_MSA.3_a"[color=red,label="consist of"];
+"FMT_MSA.3"->"FMT_MSA.3_depends"[color=red,label="consist of"];
+"FMT_REV.1"->"FMT_REV.1_depends"[color=red,label="consist of"];
+"FMT_REV.1"->"FMT_REV.1_a"[color=red,label="consist of"];
+"FMT_MTD.3"->"FMT_MTD.3_depends"[color=red,label="consist of"];
+"FMT_MTD.3"->"FMT_MTD.3_a"[color=red,label="consist of"];
+"FMT_MSA.4"->"FMT_MSA.4_a"[color=red,label="consist of"];
+"FMT_MSA.4"->"FMT_MSA.4_depends"[color=red,label="consist of"];
+"FMT_MTD.1"->"FMT_MTD.1_a"[color=red,label="consist of"];
+"FMT_SMR.1"->"FMT_SMR.1_depends"[color=red,label="consist of"];
+"FPT_PHP.2"->"FPT_PHP.2_depends"[color=red,label="consist of"];
+"FPT_RCV.3"->"FPT_RCV.3_depends"[color=red,label="consist of"];
+"FPT_RCV.3"->"FPT_RCV.3_a"[color=red,label="consist of"];
+"FIA_AFL.1"->"FIA_AFL.1_a"[color=red,label="consist of"];
+"FIA_AFL.1"->"FIA_AFL.1_depends"[color=red,label="consist of"];
+"FPT_RCV.2"->"FPT_RCV.2_depends"[color=red,label="consist of"];
+"FPT_RCV.2"->"FPT_RCV.2_a"[color=red,label="consist of"];
+"FIA_UAU.1"->"FIA_UAU.1_a"[color=red,label="consist of"];
+"FIA_UAU.1"->"FIA_UAU.1_depends"[color=red,label="consist of"];
+"FPT_RCV.1"->"FPT_RCV.1_depends"[color=red,label="consist of"];
+"FPT_RCV.1"->"FPT_RCV.1_a"[color=red,label="consist of"];
+"FPR_UNO.3"->"FPR_UNO.3_depends"[color=red,label="consist of"];
+"FIA_UAU.2"->"FIA_UAU.2_depends"[color=red,label="consist of"];
+"FMT_MSA.1"->"FMT_MSA.1_depends"[color=red,label="consist of"];
+"FPT_PHP.2"->"FPT_PHP.2_a"[color=red,label="consist of"];
+"FIA_UAU.7"->"FIA_UAU.7_a"[color=red,label="consist of"];
+"FIA_UAU.7"->"FIA_UAU.7_depends"[color=red,label="consist of"];
+"FIA_USB.1"->"FIA_USB.1_a"[color=red,label="consist of"];
+"FPT_ITT.3"->"FPT_ITT.3_depends"[color=red,label="consist of"];
+"FPT_ITT.3"->"FPT_ITT.3_a"[color=red,label="consist of"];
+"FIA_USB.1"->"FIA_USB.1_depends"[color=red,label="consist of"];
+"FMT_MOF.1"->"FMT_MOF.1_a"[color=red,label="consist of"];
+"FMT_MOF.1"->"FMT_MOF.1_depends"[color=red,label="consist of"];
+"FDP_ROL.1"->"FDP_ROL.1_a"[color=red,label="consist of"];
+"FIA_UAU.2"->"FIA_UAU.2_a"[color=red,label="consist of"];
+"FAU_SEL.1"->"FAU_SEL.1_a"[color=red,label="consist of"];
+"FDP_DAU.2"->"FDP_DAU.2_depends"[color=red,label="consist of"];
+"FCO_NRR.2"->"FCO_NRR.2_a"[color=red,label="consist of"];
+"FAU_SAR.1"->"FAU_SAR.1_depends"[color=red,label="consist of"];
+"FDP_ETC.1"->"FDP_ETC.1_a"[color=red,label="consist of"];
+"FAU_SAR.1"->"FAU_SAR.1_a"[color=red,label="consist of"];
+"FCS_CKM.2"->"FCS_CKM.2_a"[color=red,label="consist of"];
+"FDP_IFC.1"->"FDP_IFC.1_a"[color=red,label="consist of"];
+"FCO_NRR.1"->"FCO_NRR.1_depends"[color=red,label="consist of"];
+"FCS_COP.1"->"FCS_COP.1_depends"[color=red,label="consist of"];
+"FAU_GEN.1"->"FAU_GEN.1_depends"[color=red,label="consist of"];
+"FAU_SEL.1"->"FAU_SEL.1_depends"[color=red,label="consist of"];
+"FDP_ETC.2"->"FDP_ETC.2_a"[color=red,label="consist of"];
+"FDP_ETC.2"->"FDP_ETC.2_depends"[color=red,label="consist of"];
+"FCO_NRR.1"->"FCO_NRR.1_a"[color=red,label="consist of"];
+"FCS_CKM.4"->"FCS_CKM.4_depends"[color=red,label="consist of"];
+"FDP_ETC.1"->"FDP_ETC.1_depends"[color=red,label="consist of"];
+"FDP_ACC.2"->"FDP_ACC.2_a"[color=red,label="consist of"];
+"FAU_ARP.1"->"FAU_ARP.1_depends"[color=red,label="consist of"];
+"FAU_ARP.1"->"FAU_ARP.1_a"[color=red,label="consist of"];
+"FCS_CKM.1"->"FCS_CKM.1_a"[color=red,label="consist of"];
+"FDP_ACC.1"->"FDP_ACC.1_a"[color=red,label="consist of"];
+"FCO_NRR.2"->"FCO_NRR.2_depends"[color=red,label="consist of"];
+"FAU_SAR.2"->"FAU_SAR.2_depends"[color=red,label="consist of"];
+"FDP_DAU.2"->"FDP_DAU.2_a"[color=red,label="consist of"];
+"FAU_SAR.3"->"FAU_SAR.3_a"[color=red,label="consist of"];
+"FAU_GEN.1"->"FAU_GEN.1_a"[color=red,label="consist of"];
+"FDP_ACC.2"->"FDP_ACC.2_depends"[color=red,label="consist of"];
+"FAU_SAR.3"->"FAU_SAR.3_depends"[color=red,label="consist of"];
+"FAU_SAR.2"->"FAU_SAR.2_a"[color=red,label="consist of"];
+"FDP_ACF.1"->"FDP_ACF.1_a"[color=red,label="consist of"];
+"FCS_CKM.1"->"FCS_CKM.1_depends"[color=red,label="consist of"];
+"FDP_ACF.1"->"FDP_ACF.1_depends"[color=red,label="consist of"];
+"FCS_COP.1"->"FCS_COP.1_a"[color=red,label="consist of"];
+"FDP_ACC.1"->"FDP_ACC.1_depends"[color=red,label="consist of"];
+"FAU_SAA.1"->"FAU_SAA.1_depends"[color=red,label="consist of"];
+"FCS_CKM.2"->"FCS_CKM.2_depends"[color=red,label="consist of"];
+"FCO_NRO.1"->"FCO_NRO.1_depends"[color=red,label="consist of"];
+"FAU_STG.2"->"FAU_STG.2_a"[color=red,label="consist of"];
+"FAU_STG.2"->"FAU_STG.2_depends"[color=red,label="consist of"];
+"FDP_IFF.1"->"FDP_IFF.1_a"[color=red,label="consist of"];
+"FCS_CKM.3"->"FCS_CKM.3_a"[color=red,label="consist of"];
+"FDP_IFC.2"->"FDP_IFC.2_a"[color=red,label="consist of"];
+"FCS_CKM.3"->"FCS_CKM.3_depends"[color=red,label="consist of"];
+"FDP_IFC.2"->"FDP_IFC.2_depends"[color=red,label="consist of"];
+"FAU_SAA.1"->"FAU_SAA.1_a"[color=red,label="consist of"];
+"FAU_STG.4"->"FAU_STG.4_depends"[color=red,label="consist of"];
+"FAU_STG.4"->"FAU_STG.4_a"[color=red,label="consist of"];
+"FDP_IFF.2"->"FDP_IFF.2_a"[color=red,label="consist of"];
+"FDP_IFF.2"->"FDP_IFF.2_depends"[color=red,label="consist of"];
+"FAU_STG.3"->"FAU_STG.3_a"[color=red,label="consist of"];
+"FAU_STG.3"->"FAU_STG.3_depends"[color=red,label="consist of"];
+"FDP_IFF.1"->"FDP_IFF.1_depends"[color=red,label="consist of"];
+"FAU_GEN.2"->"FAU_GEN.2_depends"[color=red,label="consist of"];
+"FDP_IFC.1"->"FDP_IFC.1_depends"[color=red,label="consist of"];
+"FCO_NRO.2"->"FCO_NRO.2_depends"[color=red,label="consist of"];
+"FCO_NRO.2"->"FCO_NRO.2_a"[color=red,label="consist of"];
+"FCO_NRO.1"->"FCO_NRO.1_a"[color=red,label="consist of"];
+"FAU_GEN.2"->"FAU_GEN.2_a"[color=red,label="consist of"];
+"FAU_SAA.2"->"FAU_SAA.2_depends"[color=red,label="consist of"];
+"FAU_SAA.2"->"FAU_SAA.2_a"[color=red,label="consist of"];
+"FCS_CKM.4"->"FCS_CKM.4_a"[color=red,label="consist of"];
+"FAU_STG.1"->"FAU_STG.1_depends"[color=red,label="consist of"];
+"FAU_STG.1"->"FAU_STG.1_a"[color=red,label="consist of"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"->"FCS_CKM.4([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"[color=green,label="follow for"];
+"FDP_UIT.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FMT_SMF.1(FMT_SMR.1->FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FCS_CKM.2_a"->"FCS_CKM.2_depends"[color=green,label="follow for"];
+"FMT_MOF.1_a"->"FMT_MOF.1_depends"[color=green,label="follow for"];
+"FIA_UAU.1_a"->"FIA_UAU.1_depends"[color=green,label="follow for"];
+"FCS_CKM.1_a"->"FCS_CKM.1_depends"[color=green,label="follow for"];
+"FCS_CKM.4(FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"->"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1](FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"[color=green,label="follow for"];
+"FIA_UAU.2_a"->"FIA_UAU.2_depends"[color=green,label="follow for"];
+"FIA_UAU.7_a"->"FIA_UAU.7_depends"[color=green,label="follow for"];
+"FIA_AFL.1_a"->"FIA_AFL.1_depends"[color=green,label="follow for"];
+"[FCS_CKM.2 OR FCS_COP.1]([FCS_CKM.2 OR FCS_COP.1]->FCS_CKM.4)"->"FCS_CKM.4([FCS_CKM.2 OR FCS_COP.1]->FCS_CKM.4)"[color=green,label="follow for"];
+"FCS_CKM.4(FCS_CKM.4->[FCS_CKM.2 OR FCS_COP.1])"->"[FCS_CKM.2 OR FCS_COP.1](FCS_CKM.4->[FCS_CKM.2 OR FCS_COP.1])"[color=green,label="follow for"];
+"FIA_USB.1_a"->"FIA_USB.1_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FMT_MSA.1(FMT_SMR.1->FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FCO_NRO.2_a"->"FCO_NRO.2_depends"[color=green,label="follow for"];
+"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_MSA.1)"->"FMT_MSA.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_MSA.1)"[color=green,label="follow for"];
+"FMT_MSA.1(FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"->"FMT_SMR.1(FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"[color=green,label="follow for"];
+"FMT_MSA.1(FMT_MSA.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FMT_SMR.1(FMT_MSA.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_MSA.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_MSA.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1)"->"FMT_SMF.1(FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1)"->"FMT_MSA.1(FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1->FMT_SMR.1)"->"FMT_MSA.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FCO_NRO.1_a"->"FCO_NRO.1_depends"[color=green,label="follow for"];
+"FMT_MSA.1(FMT_SMR.1->FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->FMT_MSA.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FMT_MSA.3_a"->"FMT_MSA.3_depends"[color=green,label="follow for"];
+"FMT_MSA.1(FMT_MSA.1->FMT_SMR.1)"->"FMT_SMR.1(FMT_MSA.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FMT_MSA.1)"->"FMT_MSA.1(FMT_SMR.1->FMT_MSA.1)"[color=green,label="follow for"];
+"FAU_STG.4_a"->"FAU_STG.4_depends"[color=green,label="follow for"];
+"FMT_MSA.4_a"->"FMT_MSA.4_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1)"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FMT_SMF.1(FMT_SMR.1->FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FMT_SMF.1(FMT_SMF.1->FMT_SMR.1)"->"FMT_SMR.1(FMT_SMF.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FCO_NRR.2_a"->"FCO_NRR.2_depends"[color=green,label="follow for"];
+"FMT_MSA.1_a"->"FMT_MSA.1_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_SMF.1)"->"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_SMF.1)"[color=green,label="follow for"];
+"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_SMF.1)"->"FMT_SMF.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_SMF.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1->FMT_SMR.1)"->"FMT_SMF.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FMT_SMF.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1->FMT_SMR.1)"->"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1->FMT_SMR.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_MSA.1)"->"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1->FMT_MSA.1)"[color=green,label="follow for"];
+"FCS_CKM.3_a"->"FCS_CKM.3_depends"[color=green,label="follow for"];
+"FMT_MSA.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1->FMT_SMR.1)"->"FMT_SMR.1([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.1->FMT_SMR.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"->"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"[color=green,label="follow for"];
+"FCO_NRR.1_a"->"FCO_NRR.1_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"->"FMT_SMR.1(FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"[color=green,label="follow for"];
+"FAU_STG.3_a"->"FAU_STG.3_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMF.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMF.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FMT_MSA.2_a"->"FMT_MSA.2_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FMT_SMF.1)"->"FMT_SMF.1(FMT_SMR.1->FMT_SMF.1)"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMF.1)"[color=green,label="follow for"];
+"FDP_IFC.1(FDP_IFC.1->FDP_ACC.1)"->"FDP_ACC.1(FDP_IFC.1->FDP_ACC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"->"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"[color=green,label="follow for"];
+"FPT_TDC.1(FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"->"[FTP_ITC.1 OR FTP_TRP.1](FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"FPT_TDC.1(FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"->"[FTP_ITC.1 OR FTP_TRP.1](FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1](FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_IFC.1_a"->"FDP_IFC.1_depends"[color=green,label="follow for"];
+"FDP_ITT.1_a"->"FDP_ITT.1_depends"[color=green,label="follow for"];
+"FDP_ETC.2_a"->"FDP_ETC.2_depends"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1]([FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FPT_TDC.1([FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_ACC.1(FDP_ACC.1->FDP_IFC.1)"->"FDP_IFC.1(FDP_ACC.1->FDP_IFC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1)"->"FPT_TDC.1([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1)"[color=green,label="follow for"];
+"FDP_ITT.3_a"->"FDP_ITT.3_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FDP_ITT.1)"->"FDP_ITT.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_ITT.1)"[color=green,label="follow for"];
+"FDP_ITT.1(FDP_ITT.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_ITT.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_ETC.1_a"->"FDP_ETC.1_depends"[color=green,label="follow for"];
+"FDP_ITT.4_a"->"FDP_ITT.4_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FDP_ITT.2)"->"FDP_ITT.2([FDP_ACC.1 OR FDP_IFC.1]->FDP_ITT.2)"[color=green,label="follow for"];
+"FMT_SMF.1(FMT_SMF.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FMT_SMR.1(FMT_SMF.1->FMT_SMR.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_DAU.2_a"->"FDP_DAU.2_depends"[color=green,label="follow for"];
+"FDP_ITT.2_a"->"FDP_ITT.2_depends"[color=green,label="follow for"];
+"FDP_ITC.1_a"->"FDP_ITC.1_depends"[color=green,label="follow for"];
+"FDP_IFC.1(FDP_IFC.1->FMT_MSA.3)"->"FMT_MSA.3(FDP_IFC.1->FMT_MSA.3)"[color=green,label="follow for"];
+"FDP_IFF.2_a"->"FDP_IFF.2_depends"[color=green,label="follow for"];
+"FDP_IFF.3_a"->"FDP_IFF.3_depends"[color=green,label="follow for"];
+"FDP_IFF.4_a"->"FDP_IFF.4_depends"[color=green,label="follow for"];
+"FMT_MSA.3(FMT_MSA.3->FDP_IFC.1)"->"FDP_IFC.1(FMT_MSA.3->FDP_IFC.1)"[color=green,label="follow for"];
+"FDP_IFC.1(FDP_IFC.1->FMT_MSA.3)"->"FMT_MSA.3(FDP_IFC.1->FMT_MSA.3)"[color=green,label="follow for"];
+"FDP_IFF.5_a"->"FDP_IFF.5_depends"[color=green,label="follow for"];
+"FDP_IFF.1_a"->"FDP_IFF.1_depends"[color=green,label="follow for"];
+"FPT_TDC.1([FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1]([FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_IFC.2_a"->"FDP_IFC.2_depends"[color=green,label="follow for"];
+"FMT_MSA.3(FMT_MSA.3->FDP_ACC.1)"->"FDP_ACC.1(FMT_MSA.3->FDP_ACC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.3)"->"FMT_MSA.3([FDP_ACC.1 OR FDP_IFC.1]->FMT_MSA.3)"[color=green,label="follow for"];
+"FMT_MSA.3(FMT_MSA.3->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_MSA.3->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_ITC.2_a"->"FDP_ITC.2_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1)"->"[FTP_ITC.1 OR FTP_TRP.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1)"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1)"->"FPT_TDC.1([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1]->FPT_TDC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1])"->"FPT_TDC.1([FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"FPT_TDC.1([FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1])"->"[FTP_ITC.1 OR FTP_TRP.1]([FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1)"->"[FDP_ACC.1 OR FDP_IFC.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1]->FPT_TDC.1)"[color=green,label="follow for"];
+"FDP_IFF.6_a"->"FDP_IFF.6_depends"[color=green,label="follow for"];
+"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"->"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"[color=green,label="follow for"];
+"FTP_ITC.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FTP_ITC.1(FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"->"FDP_UIT.1(FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"[color=green,label="follow for"];
+"FTP_ITC.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FDP_UIT.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_UIT.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FCS_CKM.4_a"->"FCS_CKM.4_depends"[color=green,label="follow for"];
+"FDP_UIT.3_a"->"FDP_UIT.3_depends"[color=green,label="follow for"];
+"FMT_MSA.3(FMT_MSA.3->FDP_IFC.1)"->"FDP_IFC.1(FMT_MSA.3->FDP_IFC.1)"[color=green,label="follow for"];
+"FDP_ROL.1_a"->"FDP_ROL.1_depends"[color=green,label="follow for"];
+"FDP_ITT.2(FDP_ITT.2->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_ITT.2->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FCS_COP.1_a"->"FCS_COP.1_depends"[color=green,label="follow for"];
+"FDP_UIT.1(FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"->"FTP_ITC.1(FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"[color=green,label="follow for"];
+"FCS_CKM.4(FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"->"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1](FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"[color=green,label="follow for"];
+"FDP_UIT.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FTP_ITC.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FTP_ITC.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FTP_ITC.1(FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"->"FDP_UIT.1(FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1)"[color=green,label="follow for"];
+"FTP_ITC.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FDP_UIT.1(FTP_ITC.1->FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"->"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"->"FCS_CKM.4([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"[color=green,label="follow for"];
+"FDP_ACC.1(FDP_ACC.1->FMT_MSA.3)"->"FMT_MSA.3(FDP_ACC.1->FMT_MSA.3)"[color=green,label="follow for"];
+"FDP_ACF.1_a"->"FDP_ACF.1_depends"[color=green,label="follow for"];
+"FDP_UCT.1_a"->"FDP_UCT.1_depends"[color=green,label="follow for"];
+"[FTP_ITC.1 OR FTP_TRP.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"->"[FDP_ACC.1 OR FDP_IFC.1]([FTP_ITC.1 OR FTP_TRP.1]->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"FDP_ACC.2_a"->"FDP_ACC.2_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"->"[FTP_ITC.1 OR FTP_TRP.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"FDP_ACC.1_a"->"FDP_ACC.1_depends"[color=green,label="follow for"];
+"FDP_UIT.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"->"FTP_ITC.1(FDP_UIT.1->FTP_ITC.1->[FDP_ACC.1 OR FDP_IFC.1])"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"->"[FTP_ITC.1 OR FTP_TRP.1]([FDP_ACC.1 OR FDP_IFC.1]->[FTP_ITC.1 OR FTP_TRP.1])"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"->"FTP_ITC.1(FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"[color=green,label="follow for"];
+"FCS_CKM.4(FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"->"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1](FCS_CKM.4->[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1])"[color=green,label="follow for"];
+"FDP_UIT.2_a"->"FDP_UIT.2_depends"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"->"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"[color=green,label="follow for"];
+"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"->"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FDP_UIT.1->FTP_ITC.1)"[color=green,label="follow for"];
+"[FDP_ACC.1 OR FDP_IFC.1]([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"->"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"[color=green,label="follow for"];
+"FTP_ITC.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"->"FDP_UIT.1([FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1->FDP_UIT.1)"[color=green,label="follow for"];
+"FDP_UIT.1(FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FDP_UIT.1->[FDP_ACC.1 OR FDP_IFC.1]->FTP_ITC.1)"[color=green,label="follow for"];
+"[FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"->"FCS_CKM.4([FDP_ITC.1 OR FDP_ITC.2 OR FCS_CKM.1]->FCS_CKM.4)"[color=green,label="follow for"];
+"FDP_ROL.2_a"->"FDP_ROL.2_depends"[color=green,label="follow for"];
+"FDP_UIT.1_a"->"FDP_UIT.1_depends"[color=green,label="follow for"];
+"FAU_ARP.1_a"->"FAU_ARP.1_depends"[color=green,label="follow for"];
+"FMT_SMF.1(FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"->"[FDP_ACC.1 OR FDP_IFC.1](FMT_SMF.1->[FDP_ACC.1 OR FDP_IFC.1]->FMT_SMR.1)"[color=green,label="follow for"];
+"FPT_RCV.2_a"->"FPT_RCV.2_depends"[color=green,label="follow for"];
+"FPT_RCV.1_a"->"FPT_RCV.1_depends"[color=green,label="follow for"];
+"FMT_MTD.1_a"->"FMT_MTD.1_depends"[color=green,label="follow for"];
+"FMT_SMR.3_a"->"FMT_SMR.3_depends"[color=green,label="follow for"];
+"FTA_MCS.1_a"->"FTA_MCS.1_depends"[color=green,label="follow for"];
+"FTA_SSL.2_a"->"FTA_SSL.2_depends"[color=green,label="follow for"];
+"FAU_SAR.3_a"->"FAU_SAR.3_depends"[color=green,label="follow for"];
+"FPT_ITT.3_a"->"FPT_ITT.3_depends"[color=green,label="follow for"];
+"FPR_PSE.2_a"->"FPR_PSE.2_depends"[color=green,label="follow for"];
+"FAU_SAA.1_a"->"FAU_SAA.1_depends"[color=green,label="follow for"];
+"FMT_SMR.2_a"->"FMT_SMR.2_depends"[color=green,label="follow for"];
+"FPT_SSP.2_a"->"FPT_SSP.2_depends"[color=green,label="follow for"];
+"FAU_SAR.2_a"->"FAU_SAR.2_depends"[color=green,label="follow for"];
+"FPT_SSP.1_a"->"FPT_SSP.1_depends"[color=green,label="follow for"];
+"FTA_MCS.2_a"->"FTA_MCS.2_depends"[color=green,label="follow for"];
+"FAU_SAR.1_a"->"FAU_SAR.1_depends"[color=green,label="follow for"];
+"FPR_UNO.3_a"->"FPR_UNO.3_depends"[color=green,label="follow for"];
+"FPT_RCV.3_a"->"FPT_RCV.3_depends"[color=green,label="follow for"];
+"FAU_SAA.2_a"->"FAU_SAA.2_depends"[color=green,label="follow for"];
+"FTA_SSL.1_a"->"FTA_SSL.1_depends"[color=green,label="follow for"];
+"FRU_FLT.2_a"->"FRU_FLT.2_depends"[color=green,label="follow for"];
+"FAU_STG.1_a"->"FAU_STG.1_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FMT_SMF.1)"->"FMT_SMF.1(FMT_SMR.1->FMT_SMF.1)"[color=green,label="follow for"];
+"FMT_SMF.1(FMT_SMF.1->FMT_SMR.1)"->"FMT_SMR.1(FMT_SMF.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FRU_FLT.1_a"->"FRU_FLT.1_depends"[color=green,label="follow for"];
+"FAU_GEN.1_a"->"FAU_GEN.1_depends"[color=green,label="follow for"];
+"FAU_SEL.1_a"->"FAU_SEL.1_depends"[color=green,label="follow for"];
+"FPT_PHP.2_a"->"FPT_PHP.2_depends"[color=green,label="follow for"];
+"FIA_UID.1(FIA_UID.1->FAU_GEN.1)"->"FAU_GEN.1(FIA_UID.1->FAU_GEN.1)"[color=green,label="follow for"];
+"FAU_STG.2_a"->"FAU_STG.2_depends"[color=green,label="follow for"];
+"FMT_REV.1_a"->"FMT_REV.1_depends"[color=green,label="follow for"];
+"FMT_MTD.3_a"->"FMT_MTD.3_depends"[color=green,label="follow for"];
+"FAU_GEN.2_a"->"FAU_GEN.2_depends"[color=green,label="follow for"];
+"FMT_SAE.1_a"->"FMT_SAE.1_depends"[color=green,label="follow for"];
+"FMT_SMR.1(FMT_SMR.1->FPT_STM.1)"->"FPT_STM.1(FMT_SMR.1->FPT_STM.1)"[color=green,label="follow for"];
+"FPT_STM.1(FPT_STM.1->FMT_SMR.1)"->"FMT_SMR.1(FPT_STM.1->FMT_SMR.1)"[color=green,label="follow for"];
+"FAU_GEN.1(FAU_GEN.1->FIA_UID.1)"->"FIA_UID.1(FAU_GEN.1->FIA_UID.1)"[color=green,label="follow for"];
+"FMT_MTD.1(FMT_MTD.1->FAU_GEN.1)"->"FAU_GEN.1(FMT_MTD.1->FAU_GEN.1)"[color=green,label="follow for"];
+"FMT_SMR.1_a"->"FMT_SMR.1_depends"[color=green,label="follow for"];
+"FAU_GEN.1(FAU_GEN.1->FMT_MTD.1)"->"FMT_MTD.1(FAU_GEN.1->FMT_MTD.1)"[color=green,label="follow for"];
+"FPT_TRC.1_a"->"FPT_TRC.1_depends"[color=green,label="follow for"];
+}
