@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 
+
 class point
 {
 protected:
